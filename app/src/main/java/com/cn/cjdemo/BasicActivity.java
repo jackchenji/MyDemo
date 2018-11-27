@@ -3,8 +3,12 @@ package com.cn.cjdemo;
 import android.Manifest;
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.support.annotation.Nullable;
+import android.support.v4.app.ActivityCompat;
 import android.util.Log;
 
 import com.cn.cjdemo.util.SQLog;
@@ -50,6 +54,7 @@ public class BasicActivity  extends Activity {
                 //多个权限
                 }
         });
+
 
     }
 }
